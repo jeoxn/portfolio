@@ -1,0 +1,87 @@
+/* GLOBAL STYLES */
+body {
+    font-family: "Poppins", sans-serif;
+    padding-top: 5em;
+}
+
+.theme {
+    border: none;
+}
+
+.image {
+    filter: grayscale();
+    transition: filter 0.3s ease-in-out;
+}
+
+.image:hover {
+    filter: none;
+}
+
+.projects {
+    transition: all 0.3s ease-in-out;
+    /* multiply filter effect */
+}
+
+.projects:hover {
+    /* apply multiply effect with #2b3035 color */
+    /* background: linear-gradient(to right, #212529 50%, #2b3035 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.3s ease-in-out; */
+    transform: scale(1.02);
+}
+
+.about-content {
+    transition: all 0.3s ease-in-out;
+}
+
+.about-content:hover {
+    transform: scale(1.02);
+    /* color wipe effect from left to right */
+    /* background: linear-gradient(to right, #212529 50%, #2b3035 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.3s ease-in-out; */
+}
+
+.name {
+    transition: all 0.3s ease-in-out;
+}
+
+.name:hover {
+    transform: scale(1.02);
+    /* text color wipe effect from left to right */
+    /* background: linear-gradient(to right, #212529 50%, #2b3035 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.3s ease-in-out; */
+}
+
+.nav-link {
+    padding: 2px 10px;
+    border-radius: 5px;
+}
+
+/* the on with class nav-link and active give background color of #e7ebee if light mode and #2e2f31 if darkmode*/
+.nav-link.active {
+    background-color: #00000028;
+}
+
+/* class projects image if in mobile max-width 250px if not 350px */
+
+.projects-image {
+    max-width: 350px;
+}
+
+@media (max-width: 768px) {
+    .projects-image {
+        max-width: 250px;
+    }
+    .hero {
+        justify-content: center;
+    }
+}
+
+.logo-dark {
+    filter: invert(1);
+}
