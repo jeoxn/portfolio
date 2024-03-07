@@ -24,6 +24,7 @@ if (window.innerWidth > 768) {
     <a class="dropdown-item" href="#projects">Projects</a>
     <a class="dropdown-item" href="#skills">Skills</a>
     <a class="dropdown-item" href="#contacts">Contacts</a>
+    <a class="nav-link mx-3 my-2" href="#services">Services</a>
     </ul>
     </div>
     `
@@ -37,6 +38,7 @@ window.addEventListener('resize', () => {
                   <a class="nav-link mx-3 my-2" href="#about">About</a>
                   <a class="nav-link mx-3 my-2" href="#projects">Projects</a>
                   <a class="nav-link mx-3 my-2" href="#skills">Skills</a>
+                  <a class="nav-link mx-3 my-2" href="#services">Services</a>
                   <a class="btn btn-outline-primary d-flex align-items-center" href="#contacts">
                     <span>Contact</span>
                   </a>
@@ -53,6 +55,7 @@ window.addEventListener('resize', () => {
         <a class="dropdown-item" href="#about">About</a>
         <a class="dropdown-item" href="#projects">Projects</a>
         <a class="dropdown-item" href="#skills">Skills</a>
+        <a class="dropdown-item" href="#services">Services</a>
         <a class="dropdown-item" href="#contacts">Contacts</a>
         </ul>
         </div>
